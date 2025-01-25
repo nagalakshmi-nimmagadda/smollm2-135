@@ -520,14 +520,18 @@ Step  4950 | Loss:   8.5224 | Time:   3650.1s | Tokens/sec:    44.81 | Total Tok
 
 === Generation samples at step 5000 (Time: 2025-01-25 09:21:12) ===
 
+
 Prompt: To be or not
 Generated: To be or not,,,,,,,,,,,,,,,,,,,,,,,,,,
+
 
 Prompt: All the world's
 Generated: All the world's
 
+
 Prompt: Friends, Romans,
 Generated: Friends, Romans,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
 
 Prompt: Now is the winter
 Generated: Now is the winter Hul camoufl interacted
@@ -537,124 +541,31 @@ Loss: 8.7178
 Learning Rate: 0.000010
 Total Tokens: 320,000
 Elapsed Time: 3762.9s
-Step  5000 | Loss:   8.8463 | Time:   3762.9s | Tokens/sec:     1.91 | Total Tokens:     320064
-Step  5050 | Loss:   9.1409 | Time:   3841.0s | Tokens/sec:    44.71 | Total Tokens:     323264
-Step  5100 | Loss:   8.3498 | Time:   3916.3s | Tokens/sec:    44.48 | Total Tokens:     326464
-Step  5150 | Loss:   8.8834 | Time:   3992.5s | Tokens/sec:    45.55 | Total Tokens:     329664
 
+Phase 1 just completed. Moving to Phase 2.
 
-==================================================
-New training session started at: 2025-01-25 09:29:07
-==================================================
+Starting Phase 2: Additional 50 steps
+Loaded checkpoint from step 5000
 
-Step  5000 | Loss:   7.3450 | Time:     11.2s | Tokens/sec:     5.74 | Total Tokens:     320064
-
-=== Generation samples at step 5010 (Time: 2025-01-25 09:29:47) ===
-
-Prompt: To be or not
-Generated: To be or not,,,,,,,,,,,,,,,,,,,,,,,,,,
-
-Prompt: All the world's
-Generated: All the world's
-
-Prompt: Friends, Romans,
-Generated: Friends, Romans,,,,,,,,,,,,,,,,,,,,,,,,,,,
-
-Prompt: Now is the winter
-Generated: Now is the winter Hul camoufl interacted
-
-Training Stats at step 5010:
-Loss: 8.3013
-Learning Rate: 0.000004
-Total Tokens: 320,640
-Elapsed Time: 50.0s
-
-
-==================================================
-New training session started at: 2025-01-25 09:31:46
-==================================================
-
-Step  5000 | Loss:   7.3450 | Time:     11.3s | Tokens/sec:     5.65 | Total Tokens:     320064
-
-=== Generation samples at step 5050 (Time: 2025-01-25 09:33:50) ===
-
-Prompt: To be or not
-Generated: To be or not,,,,,,,,,,,,,,,,,,,,,,,,,,
-
-Prompt: All the world's
-Generated: All the world's
-
-Prompt: Friends, Romans,
-Generated: Friends, Romans,,,,,,,,,,,,,,,,,,,,,,,,,,,
-
-Prompt: Now is the winter
-Generated: Now is the winter Hul camoufl interacted
-
-Training Stats at step 5050:
-Loss: 8.0463
-Learning Rate: 0.000004
-Total Tokens: 323,200
-Elapsed Time: 134.8s
-Step  5050 | Loss:   8.3727 | Time:    134.8s | Tokens/sec:     2.51 | Total Tokens:     323264
-
-=== Generation samples at step 5100 (Time: 2025-01-25 09:35:31) ===
-
-Prompt: To be or not
-Generated: To be or not,,,,,,,,,,,,,,,,,,,,,,,,,,
-
-Prompt: All the world's
-Generated: All the world's
-
-Prompt: Friends, Romans,
-Generated: Friends, Romans,,,,,,,,,,,,,,,,,,,,,,,,,,,
-
-Prompt: Now is the winter
-Generated: Now is the winter Hul camoufl interacted
-
-Training Stats at step 5100:
-Loss: 8.9069
-Learning Rate: 0.000004
-Total Tokens: 326,400
-Elapsed Time: 240.9s
-Step  5100 | Loss:   7.9987 | Time:    240.9s | Tokens/sec:     2.14 | Total Tokens:     326464
-
-=== Generation samples at step 5150 (Time: 2025-01-25 09:37:26) ===
-
-Prompt: To be or not
-Generated: To be or not,,,,,,,,,,,,,,,,,,,,,,,,,,
-
-Prompt: All the world's
-Generated: All the world's
-
-Prompt: Friends, Romans,
-Generated: Friends, Romans,,,,,,,,,,,,,,,,,,,,,,,,,,,
-
-Prompt: Now is the winter
-Generated: Now is the winter Hul camoufl interacted
-Training Stats at step 5150:
-Loss: 8.8981
-Learning Rate: 0.000004
-Total Tokens: 329,600
-Elapsed Time: 356.6s
-Step  5150 | Loss:   8.4738 | Time:    356.7s | Tokens/sec:     2.00 | Total Tokens:     329664
-
-
-==================================================
-New training session started at: 2025-01-25 09:39:28
-==================================================
-
-Step  5000 | Loss:   7.3450 | Time:     11.1s | Tokens/sec:     5.76 | Total Tokens:     320064
+Starting additional 50 steps...
+Epoch 0: |                                                                                                    | 0/? [00:00<?, ?it/s]Step  5000 | Loss:   7.3450 | Time:     11.1s | Tokens/sec:     5.76 | Total Tokens:     320064
+Epoch 0: |                                                                               | 49/? [01:30<00:00,  0.54it/s, v_num=lupi]
+Saved checkpoint to checkpoints/step_5050.pt
 
 === Generation samples at step 5050 (Time: 2025-01-25 09:41:25) ===
 
+
 Prompt: To be or not
 Generated: To be or not,,,,,,,,,,,,,,,,,,,,,,,,,,
+
 
 Prompt: All the world's
 Generated: All the world's
 
+
 Prompt: Friends, Romans,
 Generated: Friends, Romans,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
 
 Prompt: Now is the winter
 Generated: Now is the winter Hul camoufl interacted
@@ -664,3 +575,24 @@ Loss: 8.0463
 Learning Rate: 0.000004
 Total Tokens: 323,200
 Elapsed Time: 126.2s
+
+Epoch 0: |                                                                               | 50/? [01:55<00:00,  0.43it/s, v_num=lupi]
+
+Phase 2 completed successfully!
+
+=== Final generation samples ===
+
+Prompt: To be or not
+Generated: To be or not,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+Prompt: All the world's
+Generated: All the world's
+
+
+Prompt: Friends, Romans,
+Generated: Friends, Romans,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+Prompt: Now is the winter
+Generated: Now is the winter Hul camoufl interacted
+
+
