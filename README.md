@@ -142,8 +142,7 @@ The repository contains the following directories:
 
 The model was trained with the following progression: 
 
-
-
+```plaintext
 ==================================================
 New training session started at: 2025-01-24 22:29:41
 ==================================================
