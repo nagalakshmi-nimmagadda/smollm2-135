@@ -1,6 +1,6 @@
 # SmolLM2-135M Shakespeare Text Generator
 
-This is a Gradio interface for the SmolLM2-135M model, trained on Shakespeare's text. The model can generate Shakespeare-style text continuations from your prompts.
+The SmolLM2-135M model, trained on Shakespeare's text. The model can generate Shakespeare-style text continuations from your prompts.
 
 ## Model Details
 - Architecture: Transformer-based language model
@@ -138,7 +138,7 @@ The repository contains the following directories:
 - Training Steps: 5000 + 50
 - Checkpoint Interval: 500 steps
 
-## Training Log
+## Training Logs
 
 The model was trained with the following progression: 
 
